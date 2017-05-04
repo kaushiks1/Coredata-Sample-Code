@@ -7,8 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoreDataUtility.h"
+#import "Form.h"
+#import "Utility.h"
 
 @interface ViewController : UIViewController
+
+
+
+- (IBAction)buttonActionInsertData:(id)sender;
+- (IBAction)buttonActionFetchData:(id)sender;
+- (IBAction)buttonActionUpdataData:(id)sender;
+- (IBAction)buttonActionDeleteData:(id)sender;
+- (IBAction)buttonActionViewAllData:(id)sender;
+- (IBAction)buttonActionDeleteAllData:(id)sender;
+
+
 
 
 @end
